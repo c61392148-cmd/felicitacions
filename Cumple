@@ -1,0 +1,500 @@
+<!--
+================================================================================
+PROYECTO: SISTEMA DE MENÚ Y CATÁLOGO VIRTUAL DE ROPA
+================================================================================
+
+DESCRIPCIÓN GENERAL DEL PROYECTO:
+
+El presente proyecto tiene como finalidad desarrollar una página web
+orientada a la presentación y organización de un catálogo virtual de
+prendas de vestir. La página deberá contar con una estructura visual
+ordenada, sencilla, intuitiva y agradable para el usuario, permitiendo
+que las diferentes categorías de ropa puedan ser consultadas de manera
+rápida y organizada.
+
+La idea principal consiste en crear una interfaz que pueda funcionar
+como un pequeño menú de tienda de ropa, en el cual el usuario pueda
+visualizar diferentes tipos de prendas, consultar sus características
+generales y navegar entre distintas secciones del catálogo.
+
+Para la elaboración de este proyecto se utilizarán principalmente
+tecnologías relacionadas con el desarrollo web, incluyendo HTML para
+la estructura del documento, CSS para la apariencia visual y JavaScript
+para las diferentes interacciones que puedan ser necesarias dentro de
+la página.
+
+El proyecto deberá procurar mantener una estructura clara en cuanto
+a la distribución de los elementos, procurando que cada sección tenga
+una función determinada y que los contenidos puedan ser identificados
+fácilmente por el usuario.
+
+================================================================================
+OBJETIVOS DEL PROYECTO
+================================================================================
+
+El objetivo principal será diseñar una página de menú de ropa que
+permita organizar diferentes prendas dentro de categorías específicas.
+
+Entre los objetivos secundarios se encuentran:
+
+1. Crear una página visualmente agradable.
+
+2. Organizar las prendas de acuerdo con diferentes categorías.
+
+3. Facilitar la navegación entre las diferentes secciones.
+
+4. Permitir que el usuario pueda identificar fácilmente cada producto.
+
+5. Mostrar información relacionada con las prendas.
+
+6. Mantener una estructura HTML ordenada.
+
+7. Utilizar CSS para mejorar la presentación visual.
+
+8. Utilizar JavaScript únicamente cuando sea necesario para generar
+   interacciones.
+
+9. Procurar que la página pueda visualizarse correctamente en
+   diferentes tamaños de pantalla.
+
+10. Mantener el código organizado para facilitar futuras modificaciones.
+
+================================================================================
+ESTRUCTURA GENERAL
+================================================================================
+
+La página estará dividida en diferentes apartados. El primer apartado
+corresponderá a una portada o página principal en donde se mostrará
+el nombre de la tienda, una breve descripción y posiblemente algún
+elemento visual relacionado con la temática de ropa.
+
+Posteriormente se podrán agregar diferentes categorías, por ejemplo:
+
+- Camisas.
+- Playeras.
+- Sudaderas.
+- Pantalones.
+- Faldas.
+- Vestidos.
+- Chamarras.
+- Accesorios.
+- Calzado.
+- Ropa deportiva.
+- Ropa casual.
+- Ropa formal.
+
+Cada una de estas categorías podrá contar con diferentes productos
+y cada producto podrá incluir una imagen, nombre, descripción, talla,
+color y precio.
+
+================================================================================
+DISEÑO DE LA INTERFAZ
+================================================================================
+
+El diseño deberá procurar que los elementos estén correctamente
+alineados y distribuidos dentro de la pantalla.
+
+Se podrá utilizar una combinación de colores relacionada con la
+identidad visual de la tienda. Los colores deberán mantenerse
+consistentes a lo largo de toda la página para evitar que la interfaz
+se vea desordenada.
+
+Los botones deberán contar con un tamaño suficiente para que puedan
+ser identificados y utilizados fácilmente.
+
+Los títulos deberán diferenciarse claramente del resto del texto,
+utilizando diferentes tamaños de letra y, cuando sea necesario,
+diferentes pesos tipográficos.
+
+Los productos podrán organizarse utilizando contenedores, tarjetas
+o cuadrículas para aprovechar mejor el espacio disponible.
+
+================================================================================
+CATÁLOGO DE PRODUCTOS
+================================================================================
+
+Cada producto podrá representarse mediante una tarjeta individual.
+
+Una tarjeta de producto podrá contener:
+
+- Imagen de la prenda.
+- Nombre del producto.
+- Tipo de prenda.
+- Color.
+- Talla disponible.
+- Precio.
+- Descripción.
+- Botón para consultar información.
+
+Por ejemplo, una tarjeta podría representar una playera básica,
+mostrando su nombre, color disponible, talla y precio.
+
+Otra tarjeta podría representar una sudadera, mientras que otra
+podría utilizarse para un pantalón.
+
+La información deberá mantenerse clara y evitar cantidades
+innecesarias de texto dentro de las tarjetas.
+
+================================================================================
+CATEGORÍAS
+================================================================================
+
+La sección de categorías tendrá como objetivo permitir que el usuario
+pueda encontrar rápidamente el tipo de ropa que está buscando.
+
+La categoría de playeras podrá contener diferentes modelos,
+colores y estilos.
+
+La categoría de pantalones podrá dividirse en pantalones casuales,
+de mezclilla, deportivos y otros estilos.
+
+La categoría de sudaderas podrá incluir modelos ligeros, modelos
+para clima frío y diferentes diseños.
+
+La categoría de vestidos podrá incluir opciones casuales y formales.
+
+La categoría de accesorios podrá incluir elementos complementarios
+como bolsas, gorras, cinturones y otros artículos.
+
+================================================================================
+NAVEGACIÓN
+================================================================================
+
+La navegación deberá permitir que el usuario pueda regresar fácilmente
+a la página principal después de visitar una categoría.
+
+Se podrá utilizar un menú superior que contenga enlaces hacia las
+diferentes secciones.
+
+También podrá incluirse un botón de regreso en aquellas secciones
+en donde sea necesario.
+
+La navegación deberá ser sencilla para que una persona que visite
+la página por primera vez pueda comprender rápidamente cómo utilizarla.
+
+================================================================================
+RESPONSIVIDAD
+================================================================================
+
+Uno de los aspectos importantes del proyecto será procurar que la
+página pueda visualizarse correctamente tanto en computadoras como
+en dispositivos móviles.
+
+Para esto se podrán utilizar propiedades de CSS relacionadas con
+flexbox, grid, porcentajes, unidades relativas y media queries.
+
+El contenido deberá adaptarse al tamaño de la pantalla disponible.
+
+En pantallas pequeñas las tarjetas de productos podrán organizarse
+en una sola columna o en un número menor de columnas.
+
+En pantallas grandes se podrá utilizar una cuadrícula con mayor
+cantidad de productos visibles.
+
+================================================================================
+INTERACCIONES
+================================================================================
+
+En caso de utilizar JavaScript, se podrán agregar diferentes
+interacciones para mejorar la experiencia del usuario.
+
+Por ejemplo, un botón podría mostrar información adicional sobre
+un producto.
+
+También podría utilizarse JavaScript para cambiar entre categorías,
+mostrar u ocultar determinados elementos o realizar pequeños cambios
+visuales.
+
+Las funciones deberán mantenerse separadas y organizadas para evitar
+confusiones dentro del código.
+
+================================================================================
+ORGANIZACIÓN DEL CÓDIGO
+================================================================================
+
+El código deberá mantenerse organizado mediante indentación
+consistente y comentarios que permitan identificar las diferentes
+secciones.
+
+Los nombres utilizados para clases, identificadores y funciones
+deberán procurar ser fáciles de comprender.
+
+Se recomienda evitar nombres excesivamente complicados cuando no
+sean necesarios.
+
+También se deberá procurar cerrar correctamente todas las etiquetas
+HTML utilizadas.
+
+================================================================================
+POSIBLES MEJORAS FUTURAS
+================================================================================
+
+En futuras versiones del proyecto se podrían agregar diferentes
+funciones adicionales.
+
+Entre ellas podría encontrarse un buscador de productos, filtros
+por precio, filtros por talla, filtros por color, clasificación por
+categorías y un sistema de favoritos.
+
+También podría agregarse un carrito de compras para permitir que
+el usuario seleccione diferentes productos.
+
+Otra posible mejora sería implementar un sistema de inicio de sesión,
+aunque esto requeriría una estructura adicional relacionada con
+servidores y almacenamiento de información.
+
+También podría agregarse una sección de contacto, información de
+la tienda, horarios de atención y enlaces a redes sociales.
+
+================================================================================
+CONSIDERACIONES FINALES
+================================================================================
+
+El propósito de este proyecto es practicar los conceptos fundamentales
+del desarrollo de páginas web mediante la creación de una interfaz
+relacionada con una tienda de ropa.
+
+La estructura deberá mantenerse suficientemente sencilla para que
+pueda ser modificada posteriormente sin necesidad de rehacer todo
+el proyecto.
+
+Se deberá revisar constantemente que las etiquetas HTML estén
+correctamente cerradas, que las rutas hacia imágenes y archivos
+externos sean correctas y que los estilos CSS no interfieran con
+otros elementos de la página.
+
+Antes de considerar terminado el proyecto se deberán realizar
+diferentes pruebas para comprobar que los botones, enlaces, imágenes,
+categorías y demás elementos funcionen correctamente.
+
+También se deberá verificar que no existan errores de sintaxis
+que puedan impedir que el navegador interprete correctamente el
+documento.
+
+Finalmente, se buscará que el resultado sea una página de ropa
+funcional, ordenada, visualmente agradable y fácil de utilizar.
+
+================================================================================
+FIN DE LA DOCUMENTACIÓN DEL PROYECTO
+================================================================================
+-->
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>...</title>
+</head>
+
+<body>
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #B8210F;
+      color: white;
+      text-align: center;
+    }
+
+    .apartado {
+      display: none;
+      min-height: 100vh;
+      padding: 30px;
+      box-sizing: border-box;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .activo {
+      display: flex;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      max-width: 600px;
+    }
+
+    .botones {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 25px;
+    }
+
+    button {
+      border: none;
+      padding: 15px 30px;
+      font-size: 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      background: white;
+      color: #B8210F;
+      font-weight: bold;
+    }
+
+    button:hover {
+      transform: scale(1.08);
+    }
+
+    .volver {
+      margin-top: 30px;
+      background: #8d170b;
+      color: white;
+    }
+
+  </style>
+
+
+  <!-- APARTADO PRINCIPAL -->
+  <section id="inicio" class="apartado activo">
+
+    <h3>
+    ⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔
+        
+      </h3>
+    
+    <h1>
+      𝑭𝑬𝑳𝑰𝒁 𝑪𝑼𝑴𝑷𝑳𝑬, 𝑬𝑴𝑰𝑳𝑰𝑶💗
+    </h1>
+
+    <p>
+     
+                ༻︶𓏶︶༺ 
+      <br><br>
+     𝑵𝒐 𝒕𝒆𝒏𝒈𝒐 𝒅𝒊𝒏𝒆𝒓𝒐 𝒑𝒂𝒓𝒂 𝒖𝒏 𝒓𝒆𝒈𝒂𝒍𝒐 𝒎𝒂𝒕𝒆𝒓𝒊𝒂𝒍,
+      𝒑𝒆𝒓𝒅ó𝒏, 𝒕𝒂𝒍 𝒗𝒆𝒛 𝒕𝒂𝒎𝒑𝒐𝒄𝒐 𝒑𝒖𝒆𝒅𝒂 𝒅𝒂𝒓𝒕𝒆 𝒎𝒊𝒏í𝒎𝒐 𝒖𝒏 𝒂𝒃𝒓𝒂𝒛𝒐,
+      𝒂𝒍𝒈𝒐 𝒑𝒓𝒆𝒔𝒆𝒏𝒄𝒊𝒂𝒍, 𝒍𝒐 𝒖𝒏𝒊𝒄𝒐 𝒒𝒖𝒆 𝒑𝒖𝒆𝒅𝒐 𝒉𝒂𝒄𝒆𝒓 𝒆𝒔 𝒆𝒔𝒕𝒐, 𝒍𝒐 ú𝒏𝒊𝒄𝒐
+      𝒑𝒂𝒓𝒂 𝒍𝒐 𝒒𝒖𝒆 𝒎𝒊 𝒎𝒆𝒏𝒕𝒆 𝒅𝒂. 𝑬𝒓𝒆𝒔 𝒖𝒏 𝒎𝒖𝒄𝒉𝒂𝒄𝒉𝒐 𝒊𝒏𝒄𝒓𝒆í𝒃𝒍𝒆, 𝒎𝒂𝒓𝒂𝒗𝒊𝒍𝒍𝒐𝒔𝒐,
+      𝒍𝒊𝒏𝒅𝒐 𝒚 𝒒𝒖𝒆 𝒔𝒊𝒏 𝒆𝒔𝒇𝒖𝒆𝒓𝒛𝒐 𝒑𝒐𝒏𝒆 𝒅𝒆 𝒄𝒐𝒍𝒐𝒓𝒆𝒔 𝒎𝒊 𝒗𝒊𝒅𝒂, 𝒂𝒈𝒓𝒂𝒅𝒆𝒛𝒄𝒐 𝒆𝒍 𝒄𝒐𝒏𝒐𝒄𝒆𝒓𝒕𝒆,
+      𝒂𝒎𝒐 𝒕𝒐𝒅𝒐 𝒅𝒆 𝒕𝒊, 𝒕𝒖 𝒄𝒂𝒓𝒂𝒄𝒕𝒆𝒓, 𝒕𝒖 𝒑𝒂𝒄𝒊𝒆𝒏𝒄𝒊𝒂, 𝒕𝒖 𝒂𝒎𝒐𝒓, 𝒕𝒖 𝒄𝒂𝒃𝒆𝒍𝒍𝒐, 𝒕𝒖𝒔 𝒐𝒋𝒐𝒔,
+      𝒕𝒖 𝒄𝒖𝒆𝒓𝒑𝒐 𝒚 𝒎𝒆 𝒇𝒂𝒍𝒕𝒂, 𝒂𝒎𝒐 𝒆𝒍 𝒄𝒐𝒎𝒐 𝒕𝒆 𝒆𝒔𝒇𝒖𝒆𝒓𝒛𝒂𝒔 𝒒𝒖𝒆𝒅𝒂𝒓𝒕𝒆 𝒖𝒏𝒐𝒔 𝒎𝒊𝒏𝒖𝒕𝒐𝒔 𝒎á𝒔
+      𝒊𝒏𝒄𝒍𝒖𝒔𝒐 𝒄𝒖𝒂𝒏𝒅𝒐 𝒎𝒖𝒆𝒓𝒆𝒔 𝒅𝒆 𝒔𝒖𝒆n𝒐, 𝒂𝒎𝒐 𝒆𝒍 𝒄𝒐𝒎𝒐 𝒔𝒊𝒈𝒖𝒆𝒔 𝒆𝒏 𝒑𝒊𝒆 𝒂 𝒑𝒆𝒔𝒂𝒓 𝒅𝒆 𝒕𝒐𝒅𝒐, 𝒕𝒆
+      𝒂𝒎𝒐 𝒂 𝒕𝒊, 𝒂 𝒕𝒖 𝒏𝒐𝒎𝒃𝒓𝒆, 𝒂 𝒕𝒖 𝒔𝒆𝒓. 
+      <br><br>
+༻︵𓏶︵༺
+      <br><br>
+      
+      (No puedo usar acentos bien, solo coloco los más escenciales)
+      
+    </p>
+    
+    <video controls width="350">
+    <source src="Animation.mp4" type="video/mp4">
+</video>
+
+    <h4>
+      Alch regalo culero w, todavía no le sé al CSS y
+      me estoy aventando esto, nmms
+    </h4>
+
+    <p>
+      Verdad q es un regalo culero
+    </p>
+
+    <div class="botones">
+      <button onclick="mostrar('no')">NO</button>
+      <button onclick="mostrar('si')">SÍ</button>
+    </div>
+
+  </section>
+
+
+  <!-- APARTADO DEL NO -->
+  <section id="no" class="apartado">
+
+    <h2>⊹︵︵︵ ⊹  ୨୧  ⊹ ︵︵︵ ⊹
+      <br><br>
+           ꒰ 𝑻ℰ 𝒜ℳ𝑶 !!  ꒱ 
+      <br><br>
+        ⊹ ︶︶︶ ⊹ 💗 ⊹ ︶︶︶ ⊹</h2>
+
+    <h4>pero si es regalo culero, 𝑎𝑚𝑜𝑟</h4>
+    
+      <img src="foto1.webp" width="300">
+    
+    <br><br>
+    
+       <video controls width="350">
+    <source src="Animation.mp4" type="video/mp4">
+</video>
+    
+<br><br>
+
+      <img src="foto2.webp" width="300">
+      
+      <br><br>
+    
+    <p>
+      <h3>
+    ⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔
+        
+      </h3>
+    </p>
+    
+    
+    <p>
+      Te deseo lo mejor hoy y siempre, ya qué
+    </p>
+
+    <button class="volver" onclick="mostrar('inicio')">
+      ← Volver
+    </button>
+
+  </section>
+
+
+  <!-- APARTADO DEL SÍ -->
+  <section id="si" class="apartado">
+
+    <h1>Mira que cabrón, ni decoración le voy a poner a este apartado</h1>
+
+    <p>
+      para eso mejor le hubiera pedido a chatgpt
+      que hiciera todo el codigo, maldito
+    </p>
+
+    <br><br>
+
+      <img src="foto8.webp" width="300">
+    
+    <p>
+      Regresa a la otra pinche opción que no me
+      estresé por gusto, nmms
+    </p>
+
+    <button class="volver" onclick="mostrar('inicio')">
+      ← Volver a elegir
+    </button>
+
+  </section>
+
+
+  <script>
+
+    function mostrar(apartado) {
+
+      // Ocultar todos los apartados
+      document.querySelectorAll('.apartado').forEach(function(seccion) {
+        seccion.classList.remove('activo');
+      });
+
+      // Mostrar el apartado elegido
+      document.getElementById(apartado).classList.add('activo');
+    }
+
+  </script>
+
+</body>
+</html> 
